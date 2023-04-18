@@ -11,5 +11,5 @@ pkg update;
 
 #### Mise à niveau des paquets
 ```bash
-sudo pkg upgrade;
+pkg upgrade;
 ```
