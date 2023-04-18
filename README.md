@@ -1,5 +1,5 @@
 ### Distribution
 ```
- - TrueNAS
+ - TrueNAS (FreeNas)
  - pfSense
 ```
