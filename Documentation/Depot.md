@@ -1,7 +1,7 @@
 #### Activer les dépôts FreeBSD:
 ```bash
-sed 's/enabled: yes/enabled: no/' /usr/local/etc/pkg/repos/local.conf;
-sed 's/enabled: no/enabled: yes/' /usr/local/etc/pkg/repos/FreeBSD.conf;
+sed -i 's/enabled: yes/enabled: no/g' /usr/local/etc/pkg/repos/local.conf;
+sed -i 's/enabled: no/enabled: yes/g' /usr/local/etc/pkg/repos/FreeBSD.conf;
 ```
 
 #### Mise à jour de la liste des Packages
