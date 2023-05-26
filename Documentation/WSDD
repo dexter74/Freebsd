@@ -1,7 +1,0 @@
-### Modifier le Nom de la machine (Partage
-```
-NOM=
-sed -i -e "/s/TRUENAS/$NOM/g" /etc/local/wsdd.conf;
-
-nano /etc/local/wsdd.conf;
-```
